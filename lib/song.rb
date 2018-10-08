@@ -20,15 +20,4 @@ class Song
   def self.count
     @@count
   end
-
-
-  def artist
-    @artist
-  end
-
-  def genre
-    @genre
-  end
-
-
 end
