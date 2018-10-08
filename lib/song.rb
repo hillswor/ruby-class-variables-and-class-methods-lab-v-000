@@ -3,8 +3,8 @@ require "pry"
 class Song
 
   @@count = 0
-  @@genres = []
   @@artists = []
+  @@genres = []
 
   attr_accessor :name, :artist, :genre
 
@@ -20,4 +20,7 @@ class Song
   def self.count
     @@count
   end
+
+  def self.artists
+    @@artists.uniq
 end
